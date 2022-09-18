@@ -40,43 +40,7 @@ namespace HackerRank_Exercises
 
             
 
-            // Testing Apple And Orange
-            /* 
-                int s = 7;
-                int t = 10;
-                int a = 4;
-                int b = 12;
-
-                int applesCount = 0;
-                int orangesCount = 0;
-
-                var apples = new List<int>();
-                apples.Add(2);
-                apples.Add(3);
-                apples.Add(-4);
-
-                var oranges = new List<int>();
-                oranges.Add(3);
-                oranges.Add(-2);
-                oranges.Add(-4);
-
-
-                foreach (var apple in apples)
-                {
-                    applesCount += ((apple + a) >= s && (apple + a) <= t) ? 1 : 0;
-                }
-
-                foreach (var orange in oranges)
-                {
-                    orangesCount += ((orange + b) >= s && (orange + b) <= t) ? 1 : 0;
-                }
-
-                Console.WriteLine(applesCount);
-                Console.WriteLine(orangesCount); 
-            */
-
-            /******************************************************************************************************************************************************/
-
+            
 
             // Testing Breaking The Records
             /* 
@@ -236,29 +200,7 @@ namespace HackerRank_Exercises
 
         
         
-        // Apple And Orange
-        /* 
-            public static void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
-            {
-                int applesCount = 0;
-                int orangesCount = 0;
-                foreach (var apple in apples)
-                {
-                    applesCount += ((apple + a) >= s && (apple + a) <= t) ? 1 : 0;
-                }
-
-                foreach (var orange in oranges)
-                {
-                    orangesCount += ((orange + b) >= s && (orange + b) <= t) ? 1 : 0;
-                }
         
-                Console.WriteLine(applesCount);
-                Console.WriteLine(orangesCount);
-            }
-        */
-
-        /******************************************************************************************************************************************************/
-
         // Breaking The Records
         /* 
             public static List<int> breakingRecords(List<int> scores)
