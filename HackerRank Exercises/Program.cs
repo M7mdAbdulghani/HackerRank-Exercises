@@ -40,21 +40,6 @@ namespace HackerRank_Exercises
 
             
 
-            
-            // Testing Grading Students
-            /* 
-                var grades = new List<int>();
-
-                grades.Add(73);
-                grades.Add(67);
-                grades.Add(38);
-                grades.Add(33);
-
-            */
-
-            /******************************************************************************************************************************************************/
-
-
             // Testing Apple And Orange
             /* 
                 int s = 7;
@@ -250,31 +235,7 @@ namespace HackerRank_Exercises
 
 
         
-        // Grading Students
-        /* 
-            public static List<int> gradingStudents(List<int> grades)
-            {
-                var updatedGrades = new List<int>();
-
-
-                    foreach (var grade in grades)
-                    {
-                        if (grade < 38)
-                            updatedGrades.Add(grade);
-                        else
-                        {
-                            var roundedGrade = 5 - (grade % 5) >= 3 ? grade : grade + 5 - (grade % 5);
-                            updatedGrades.Add(roundedGrade);
-                        }
-                    }
-
-                    return updatedGrades;
-            } 
-        */
-
-
-        /******************************************************************************************************************************************************/
-
+        
         // Apple And Orange
         /* 
             public static void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
