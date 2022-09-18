@@ -38,36 +38,7 @@ namespace HackerRank_Exercises
                 Console.WriteLine(minNumber + " " + maxNumber);
             */
 
-            /******************************************************************************************************************************************************/
-
-            // Testing Time Conversion
-
-
-            // string time = "12:01:00PM";
-            /*
-                string time = "07:05:45PM";
-                string timeResult = "";
-
-                bool isMorning = time.ToLower().Contains("am") ? true : false;
-                string hour = time.Substring(0, 2);
-                string timeRestCharacters = time.Substring(time.IndexOf(':')).Replace("AM", "").Replace("PM", "");
-                int hourInNumbers = int.Parse(hour);
-
             
-                if (isMorning)
-                {
-                    timeResult = hour == "12" ? "00" : hour;
-                }
-                else
-                {
-                    timeResult = hour == "12" ? hour : (hourInNumbers + 12).ToString();
-                }
-
-                Console.WriteLine(timeResult + timeRestCharacters);
-            */
-
-            /******************************************************************************************************************************************************/
-
 
             // Testing Birthday Cake Candles
             /*
@@ -289,32 +260,6 @@ namespace HackerRank_Exercises
 
         }
 
-
-        // Time Conversion
-        /* 
-            public static string timeConversion(string s)
-            {
-                string timeResult = "";
-                bool isMorning = s.ToLower().Contains("am") ? true : false;
-                    string hour = s.Substring(0, 2);
-                    string timeRestCharacters = s.Substring(s.IndexOf(':')).Replace("AM", "").Replace("PM", "");
-                    int hourInNumbers = int.Parse(hour);
-
-            
-                    if (isMorning)
-                    {
-                        timeResult = hour == "12" ? "00" : hour;
-                    }
-                    else
-                    {
-                        timeResult = hour == "12" ? hour : (hourInNumbers + 12).ToString();
-                    }
-
-                    return timeResult + timeRestCharacters;
-            }
-         */
-
-        /******************************************************************************************************************************************************/
 
         // Birthday Cake Candles
         /*

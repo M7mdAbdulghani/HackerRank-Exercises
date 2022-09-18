@@ -6,7 +6,6 @@ namespace HackerRank_Exercises
 {
     public static class CompareTriplets
     {
-
         /* 
             Exercise URL
             https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true
