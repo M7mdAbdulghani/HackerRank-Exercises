@@ -51,21 +51,7 @@ namespace HackerRank_Exercises
             */
 
 
-            /******************************************************************************************************************************************************/
-
-
-            // Testing Bill Division
-            /*
-                var bill = new List<int>() { 3, 10, 2, 9 };
-                int b = 12;
-                int k = 1;
-
-
-                bonAppetit(bill, k, b);
-            */
-
-            /******************************************************************************************************************************************************/
-
+            *****************************
 
             //List<int> ar = new List<int>() { 10, 20, 20, 10, 10, 30, 50, 10, 20 };
 
@@ -119,10 +105,6 @@ namespace HackerRank_Exercises
 
         }
 
-
-
-
-        
 
         // Migratory Birds
         /*
@@ -181,33 +163,5 @@ namespace HackerRank_Exercises
                 return id;
             }
         */
-
-        /******************************************************************************************************************************************************/
-
-
-        // Bill Division
-        /*
-            public static void bonAppetit(List<int> bill, int k, int b)
-            {
-                int totalAnnaShouldPay = 0;
-
-                for (int i = 0; i < bill.Count; i++)
-                {
-                    if (i == k)
-                        continue;
-                    totalAnnaShouldPay += bill[i];
-                }
-                totalAnnaShouldPay = totalAnnaShouldPay / 2;
-
-                if (totalAnnaShouldPay == b)
-                    Console.WriteLine("Bon Appetit");
-                else
-                    Console.WriteLine(b - totalAnnaShouldPay);
-            }
-        */
-
-        /******************************************************************************************************************************************************/
-
-
     }
 }
