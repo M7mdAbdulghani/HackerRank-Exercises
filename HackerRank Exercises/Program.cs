@@ -40,16 +40,7 @@ namespace HackerRank_Exercises
 
 
 
-            // Testing Divisible Sum Pairs
-            /* 
-                var ar = new List<int>() { 1, 2, 3, 4, 5, 6 };
-                int k = 5;
-                Console.WriteLine(divisibleSumPairs(ar.Count, k, ar));
-            */
-
-
-            /******************************************************************************************************************************************************/
-
+            
 
             // Testing Number Line Jumps 
             /* 
@@ -146,29 +137,6 @@ namespace HackerRank_Exercises
         }
 
 
-
-        // Divisble Sum Pairs
-        /* 
-            public static int divisibleSumPairs(int n, int k, List<int> ar)
-            {
-                int counter = 0;
-                for (int i = 0; i < ar.Count; i++)
-                {
-                    int number = ar[i];
-                    for (int j = 0; j < ar.Count; j++)
-                    {
-                        if (j == i)
-                            continue;
-                        else if ((number + ar[j]) % k == 0)
-                            counter++;
-                    }
-                }
-                return counter / 2;
-            }     
-        */
-
-
-        /******************************************************************************************************************************************************/
 
 
         // Number Line Jumps
