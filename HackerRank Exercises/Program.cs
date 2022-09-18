@@ -40,19 +40,7 @@ namespace HackerRank_Exercises
 
             
 
-            // Testing Birthday Cake Candles
-            /*
-                var candles = new List<int>();
-                candles.Add(4);
-                candles.Add(4);
-                candles.Add(1);
-                candles.Add(3);
-
-                Console.WriteLine("Count is " + birthdayCakeCandles(candles));
-            */
-
-            /******************************************************************************************************************************************************/
-
+            
             // Testing Grading Students
             /* 
                 var grades = new List<int>();
@@ -261,28 +249,7 @@ namespace HackerRank_Exercises
         }
 
 
-        // Birthday Cake Candles
-        /*
-            public static int birthdayCakeCandles(List<int> candles)
-            {
-                int max = candles.Count > 0 ? candles[0] : 0;
-                int count = 0;
-                foreach (var number in candles)
-                {
-                    max = number > max ? number : max;
-                }
-
-                foreach (var number in candles)
-                {
-                    if (number == max)
-                        count++;
-                }
-                return count;
-             }
-        */
-
-        /******************************************************************************************************************************************************/
-
+        
         // Grading Students
         /* 
             public static List<int> gradingStudents(List<int> grades)

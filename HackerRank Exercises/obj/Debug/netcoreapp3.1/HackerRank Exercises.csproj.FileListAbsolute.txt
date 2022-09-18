@@ -1,0 +1,14 @@
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\bin\Debug\netcoreapp3.1\HackerRank Exercises.exe
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\bin\Debug\netcoreapp3.1\HackerRank Exercises.deps.json
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\bin\Debug\netcoreapp3.1\HackerRank Exercises.runtimeconfig.json
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\bin\Debug\netcoreapp3.1\HackerRank Exercises.runtimeconfig.dev.json
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\bin\Debug\netcoreapp3.1\HackerRank Exercises.dll
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\bin\Debug\netcoreapp3.1\HackerRank Exercises.pdb
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.csproj.AssemblyReference.cache
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.AssemblyInfoInputs.cache
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.AssemblyInfo.cs
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.csproj.CoreCompileInputs.cache
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.dll
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.pdb
+D:\Courses\HackerRank Exercises\HackerRank Exercises\HackerRank Exercises\obj\Debug\netcoreapp3.1\HackerRank Exercises.genruntimeconfig.cache
