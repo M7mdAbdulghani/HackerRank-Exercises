@@ -39,23 +39,6 @@ namespace HackerRank_Exercises
             */
 
 
-
-            
-
-            // Testing Number Line Jumps 
-            /* 
-                int x1 = 43;
-                int v1 = 2;
-
-                int x2 = 70;
-                int v2 = 2;
-
-                Console.WriteLine(kangaroo(x1, v1, x2, v2));
-            */
-
-            /******************************************************************************************************************************************************/
-
-
             // Testing Migratory Birds
             /* 
                 var arr = new List<int>() { 1, 1, 2, 2, 3 };
@@ -139,25 +122,7 @@ namespace HackerRank_Exercises
 
 
 
-        // Number Line Jumps
-        /* 
-            public static string kangaroo(int x1, int v1, int x2, int v2)
-            {
-                for (var i = 0; i <= 10000; i++)
-                {
-                    if ((x1 + v1) == (x2 + v2))
-                    {
-                        return "YES";
-                    }
-                    x1 += v1;
-                    x2 += v2;
-                }
-                return "NO";
-            } 
-        */
-
-        /******************************************************************************************************************************************************/
-
+        
 
         // Migratory Birds
         /*
