@@ -48,6 +48,7 @@ namespace HackerRank_Exercises
             a.Sort();
             int difference = 1;
             int checkNumber = a[0];
+            int checkNumberIndex = 0;
 
             int count = 0;
             int previousCount = 0;
@@ -64,10 +65,13 @@ namespace HackerRank_Exercises
                     && Math.Abs(a[i + 1] - checkNumber) <= difference)
                 {
                     checkNumber = a[i];
+                    checkNumberIndex = i;
                     count++;
                     continue;
                 }
+                i = checkNumberIndex;
                 checkNumber = (i + 1 == a.Count) ? a[i] : a[i + 1];
+                checkNumberIndex = (i + 1 == a.Count) ? i : i + 1;
                 previousCount = count > previousCount ? count : previousCount;
                 count = 0;
             }
