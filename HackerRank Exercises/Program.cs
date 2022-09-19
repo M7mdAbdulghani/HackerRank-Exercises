@@ -79,20 +79,12 @@ namespace HackerRank_Exercises
             //Console.WriteLine("Elapsed Time is {0} ms", stopwatch.ElapsedMilliseconds);
 
 
-            //int x = 1;
-            //int y = 3;
-            //int z = 2;
-            ////1 3 2
+            
 
-            //int catAPosition = x;
-            //int catBPosition = y;
-            //int mousePosition = z;
-
-            //int catADifference = Math.Abs(mousePosition - catAPosition);
-            //int catBDifference = Math.Abs(mousePosition - catBPosition);
-
-            //Console.WriteLine(catADifference > catBDifference ? "Cat B" : catBDifference > catADifference ? "Cat A" : "Mouse C");
+            
 
         }
+
+
     }
 }
