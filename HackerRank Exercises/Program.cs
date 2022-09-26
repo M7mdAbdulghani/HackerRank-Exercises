@@ -24,6 +24,10 @@ namespace HackerRank_Exercises
             //Console.WriteLine(result);
             //stopwatch.Stop();
             //Console.WriteLine("Elapsed Time is {0} ms", stopwatch.ElapsedMilliseconds);
+            
+            // Console.WriteLine(getCentury(2000));
         }
+
+
     }
 }
