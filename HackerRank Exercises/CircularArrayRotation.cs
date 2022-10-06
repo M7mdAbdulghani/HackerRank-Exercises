@@ -60,5 +60,36 @@ namespace HackerRank_Exercises
 
             return result;
         }
+
+        // This solution didn't pass all test cases (because of time issues) but the idea is good (Suggested by Renad) --> O (a.Count * k)
+        public static List<int> circularArrayRotationAnotherSolution2(List<int> a, int k, List<int> queries)
+        {
+
+            int lastLement = a[a.Count - 1];
+            for (int i = a.Count - 1; i > 0; i--)
+            {
+                a[i] = a[i - 1];
+
+                if ((i - 1) == 0)
+                {
+                    k--;
+                    a[0] = lastLement;
+                    if (k != 0)
+                    {
+                        i = a.Count;
+                        lastLement = a[a.Count - 1];
+                    }
+                }
+            }
+
+
+            var result = new List<int>();
+            foreach (var index in queries)
+            {
+                result.Add(a[index]);
+            }
+
+            return result;
+        }
     }
 }
