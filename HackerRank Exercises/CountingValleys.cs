@@ -33,5 +33,18 @@ namespace HackerRank_Exercises
             }
             return result;
         }
+
+        public static int countingValleysInhanced(int steps, string path)
+        {
+            int count = 0;
+            int result = 0;
+            foreach (var character in path)
+            {
+                count = (character == 'U') ? count += 1 : count -= 1;
+                if (count == 0 && character == 'U')
+                    result++;
+            }
+            return result;
+        }
     }
 }
