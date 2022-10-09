@@ -25,6 +25,7 @@ namespace HackerRank_Exercises
             return start;
         }
 
+        // O(1) Very optimal Solution
         public static int utopianTreeEnhanced(int n)
         {
             // Getting the number first
@@ -43,6 +44,15 @@ namespace HackerRank_Exercises
             }
             return (int)result;
         }
-
+        // Solved Using Recursion (Nice Solution)
+        public static int utopianTreeEnhancedRecursion(int n)
+        {
+            if (n == 0)
+                return 1;
+            if (n % 2 == 0)
+                return utopianTree(n - 1) + 1;
+            else
+                return utopianTree(n - 1) * 2;
+        }
     }
 }
