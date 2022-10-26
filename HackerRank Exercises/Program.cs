@@ -47,10 +47,11 @@ namespace HackerRank_Exercises
             }
             //Console.WriteLine(result);
             // Console.WriteLine(beautifulDays(20, 23, 6));
-            // Console.WriteLine(beautifulDays(1, 1000000000, 189));  
+            // Console.WriteLine(beautifulDays(1, 1000000000, 189));
+            // Console.WriteLine(viralAdvertising(5));
         }
 
-
+        
         public static int beautifulDays(int i, int j, int k)
         {
             //string test = "XYZ";
