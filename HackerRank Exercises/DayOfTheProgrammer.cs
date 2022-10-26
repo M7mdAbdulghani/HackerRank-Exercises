@@ -35,5 +35,21 @@ namespace HackerRank_Exercises
 
             return day + ".09" + "." + year;
         }
+
+        public static string dayOfProgrammerEnhanced(int year)
+        {
+            var day = 13;
+            if (year < 1700 || year > 2700)
+                return "Not Valid Value";
+
+            if (year == 1918)
+                day = 26;
+            if (year > 1918 && ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)))
+                day = 12;
+            if (year < 1918 && year % 4 == 0)
+                day = 12;
+
+            return day + ".09" + "." + year;
+        }
     }
 }
