@@ -24,9 +24,9 @@ namespace HackerRank_Exercises
             //Console.WriteLine(result);
             //stopwatch.Stop();
             //Console.WriteLine("Elapsed Time is {0} ms", stopwatch.ElapsedMilliseconds);
-            var a = new List<int>() { 2, 4 };
+            //var a = new List<int>() { 2, 4 };
 
-            var b = new List<int>() { 16, 32, 96 };
+            //var b = new List<int>() { 16, 32, 96 };
 
             // Console.WriteLine( getTotalX(a, b));
 
@@ -46,9 +46,44 @@ namespace HackerRank_Exercises
                 result = getLCM(result, numbers[i + 1]);
             }
             //Console.WriteLine(result);
+            // Console.WriteLine(beautifulDays(20, 23, 6));
+            // Console.WriteLine(beautifulDays(1, 1000000000, 189));  
         }
+        
 
+        public static int beautifulDays(int i, int j, int k)
+        {
+            //string test = "XYZ";
+            
 
+            Stopwatch stopwatch = new Stopwatch();
+
+            stopwatch.Start();
+            // Thread.Sleep(5000);
+
+            string reverseInString = "";
+
+            int count = 0;
+            for (int m = i; m <= j; m++)
+            {
+                string numberInstring = m.ToString();
+                char[] charArray = numberInstring.ToCharArray(); /// N
+                Array.Reverse(charArray); // N
+                reverseInString = new string(charArray);
+                //for (var t = numberInstring.Length - 1; t >= 0; t--)
+                //    reverseInString += numberInstring[t];
+
+                int reverse = int.Parse(reverseInString);
+
+                int numbersDifference = m - reverse;
+                if (numbersDifference % k == 0)
+                    count++;
+            }
+            stopwatch.Stop();
+
+            Console.WriteLine("Elapsed Time is {0} ms", stopwatch.ElapsedMilliseconds);
+            return count;
+        }
         public static int getGCF(int a, int b)
         {
             if (a == 0)
