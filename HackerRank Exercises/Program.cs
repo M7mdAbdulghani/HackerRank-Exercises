@@ -48,10 +48,16 @@ namespace HackerRank_Exercises
             //Console.WriteLine(result);
             // Console.WriteLine(beautifulDays(20, 23, 6));
             // Console.WriteLine(beautifulDays(1, 1000000000, 189));  
+
+            // In the Julian calendar, leap years are divisible by 4 (1700 - 1917)
+            // in the Gregorian calendar, leap years are either of the following: (1919 - 2700)
+            // Divisible by 400.
+            // Divisible by 4 and not divisible by 100.
+            
         }
 
+        
 
-       
 
 
         public static int beautifulDays(int i, int j, int k)
