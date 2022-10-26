@@ -13,6 +13,7 @@ namespace HackerRank_Exercises
 
             Console.WriteLine(pageCount(6, 2));   
             Console.WriteLine(pageCount(5, 4)); 
+            Console.WriteLine(pageCount(83246, 78132));
         */
         public static int pageCount(int n, int p)
         {
@@ -35,6 +36,15 @@ namespace HackerRank_Exercises
             }
 
             return (frontCount > backCount) ? backCount : frontCount;
+        }
+
+        public static int pageCountEnhanced(int n, int p)
+        {
+            if (n % 2 == 0)
+            {
+                return (p / 2) < ((n - p + 1) / 2) ? (p / 2) : ((n - p + 1) / 2);
+            }
+            return (p / 2) < ((n - p) / 2) ? (p / 2) : ((n - p) / 2);
         }
     }
 }
