@@ -27,5 +27,13 @@ namespace HackerRank_Exercises
             else
                 return ((m % n) + (s - 1)) % n;
         }
+
+        public static int saveThePrisonerEnhanced(int n, int m, int s)
+        {
+            var prisoner = (m + s - 1) % n;
+            if (prisoner == 0)
+                prisoner = n;
+            return prisoner;
+        }
     }
 }

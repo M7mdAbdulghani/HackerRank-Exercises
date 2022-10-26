@@ -50,17 +50,6 @@ namespace HackerRank_Exercises
             // Console.WriteLine(beautifulDays(1, 1000000000, 189));  
         }
 
-        
-
-
-        /*
-            var prisoner = (m + s - 1) % n;
-            if (prisoner == 0)
-            {
-                prisoner = n;
-            }
-            return (prisoner);
-        */
 
         public static int beautifulDays(int i, int j, int k)
         {
