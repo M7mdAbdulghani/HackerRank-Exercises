@@ -49,28 +49,9 @@ namespace HackerRank_Exercises
             // Console.WriteLine(beautifulDays(20, 23, 6));
             // Console.WriteLine(beautifulDays(1, 1000000000, 189));
             // Console.WriteLine(birthday(new List<int>() { 1, 2, 1, 3, 2 }, 3, 2));
-
-            Console.WriteLine(findDigits(106108048));
         }
 
-        public static int findDigits(int n)
-        {
-            int original = n;
-            int count = 0;
-            while(n != 0)
-            {
-                int number = n % 10;
-                if (number == 0)
-                {
-                    n /= 10;
-                    continue;
-                }
-                    
-                count = (original % number == 0) ? count += 1 : count;
-                n /= 10;
-            }
-            return count;
-        }
+        
 
 
         public static int birthday(List<int> s, int d, int m)
