@@ -51,9 +51,6 @@ namespace HackerRank_Exercises
             // Console.WriteLine(birthday(new List<int>() { 1, 2, 1, 3, 2 }, 3, 2));
         }
 
-        
-
-
         public static int birthday(List<int> s, int d, int m)
         {
             int count = 0;
